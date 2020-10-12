@@ -17,3 +17,10 @@ http://localhost:8000/currency-exchange/from/EUR/to/INR
 http://localhost:8001/currency-exchange/from/USD/to/INR
 http://localhost:8765/currency-exchange-service/currency-exchange/from/EUR/to/INR 
 http://localhost:8765/currency-conversion-service/currency-converter-feign/from/USD/to/INR/quantity/10
+
+
+Steps for creating a MySQL database:
+
+create database MicroCredDb;
+create user 'theju'@'%' identified by 'boss';
+grant all on MicroCredDb.* to 'theju'@'%';
